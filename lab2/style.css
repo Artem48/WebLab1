@@ -179,10 +179,14 @@ footer {
         display: none;
     }
 
+
 }
 @media (max-width: 767px) {
     #description img{
         max-height: 400px;
+    }
+    .abt h4{
+        font-size: 20px;
     }
 }
 
@@ -198,6 +202,9 @@ footer {
     .navbar-toggler-icon {
         background-color: #17a2b8;
     }
+    .abt h4{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -212,7 +219,7 @@ footer {
     }
 
     #description p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .btn-webdev {
@@ -225,5 +232,8 @@ footer {
 
     #labs h3 {
         font-size: 1.5em;
+    }
+    .abt h4{
+        font-size: 12px;
     }
 }
