@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+section,
+footer {
+    padding: 7vh 0;
+}
+
+.decor-hr {
+    max-width: 30%;
+    border-width: 0.3em;
+    border-color: #17a2b8;
+    margin: 20px auto;
+    border-radius: 100px;
+}
+
+.decor-hr-white {
+    max-width: 30%;
+    border-width: 0.3em;
+    border-color: #fff;
+    margin: 20px auto;
+    border-radius: 100px;
+}
+
+/*header start*/
+.head-img {
+    background: url(images/iphone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-bottom: 15%;
+}
+
+nav {
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+}
+
+nav a:hover {
+    color: #17a2b8;
+}
+
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+.navbar-scrolled a {
+    color: #000;
+    text-shadow: none;
+}
+
+.show,
+.collapsing {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+}
+header p {
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+}
+
+.course-header {
+    padding-top: 30%;
+    color: #ffffff;
+}
+
+
+.course-header p {
+    font-size: 1.5em;
+}
+
+.btn-webdev {
+    background-color: #17a2b8;
+    font-size: 1.1em;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    padding-bottom: 6px;
+}
+
+.btn-webdev:hover {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+/*header end*/
+
+/*description start*/
+
+#description {
+    background-color: #17a2b8;
+    min-height: 50vh;
+    color: #fff;
+}
+
+#description p {
+    margin-bottom: 1.5em;
+}
+
+/*description end*/
+
+/*about us start*/
+
+.abt {
+    margin-bottom: 10%;
+}
+
+
+/*labs end*/
+
+/*contact start*/
+
+#contact {
+    background-color: #343A40;
+}
+
+#contact h2,
+label {
+    color: #fff;
+}
+
+.form-border {
+    border: 2px solid #17a2b8;
+}
+
+.btn-col {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-col button {
+    width: 100%;
+}
+
+/*contact end*/
+
+footer {
+    background-color: #F8F9FA;
+}
+
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 990px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    .course-header {
+        padding-top: 30%;
+    }
+
+    .course-header p {
+        font-size: 24px;
+    }
+
+    .profile {
+        display: none;
+    }
+
+}
+@media (max-width: 767px) {
+    #description img{
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 575px) {
+    nav {
+        background-color: #fff;
+    }
+
+    nav a {
+        color: #000;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #17a2b8;
+    }
+}
+
+@media (max-width: 440px) {
+
+    header h1 {
+        letter-spacing: 0;
+        font-size: 1.2em;
+    }
+
+    .course-header p {
+        font-size: 1.1em;
+    }
+
+    #description p {
+        font-size: 16px;
+    }
+
+    .btn-webdev {
+        width: 100%;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    #labs h3 {
+        font-size: 1.5em;
+    }
+}
